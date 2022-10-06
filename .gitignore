@@ -1,0 +1,12 @@
+
+# Ignore temporaries
+*~
+.Rhistory
+
+
+# Specific ignores
+R/panagram.solver.R
+
+
+# Ignore Mac specific files
+.DS_Store
