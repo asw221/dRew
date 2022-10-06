@@ -5,7 +5,7 @@
 
 
 # Specific ignores
-R/panagram.solver.R
+tmp
 
 
 # Ignore Mac specific files
