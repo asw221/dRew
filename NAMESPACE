@@ -1,0 +1,29 @@
+
+## --- General -------------------------------------------------------
+
+export ("acor", "acov",
+        "count",
+        "rank.normalize",
+        "split.rhat",
+        "strrev"
+        )
+
+
+## --- Generics and Methods ------------------------------------------
+
+export("ess")
+
+export("ess.default", "ess.matrix", "ess.numeric")
+S3method(ess, matrix)
+S3method(ess, numeric)
+
+## --- Plotting ------------------------------------------------------
+export("scientific10",
+       "theme_calm",
+       "thousands"
+       )
+
+## -------------------------------------------------------------------
+## useDynLib (dRew)
+## import (RcppEigen)
+## importFrom (Rcpp, sourceCpp)

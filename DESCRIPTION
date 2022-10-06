@@ -1,0 +1,16 @@
+Package: dRew
+Version: 0.1
+Date: 2020-5-19
+Title: Auxiliary functions
+Description: Andrew's functions
+Author: Andrew Whiteman <awhitem@umich.edu>
+Maintainer: Andrew Whiteman <awhitem@umich.edu>
+License: GPL (>= 2)
+Depends: R (>= 3.0.2),
+	 extrafont,
+	 ggplot2,
+	 viridis
+LinkingTo: 
+Imports: 
+Suggests: devtools
+RoxygenNote: 7.1.2
