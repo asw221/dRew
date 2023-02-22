@@ -18,10 +18,11 @@ S3method(ess, matrix)
 S3method(ess, numeric)
 
 ## --- Plotting ------------------------------------------------------
-export("scientific10",
-       "theme_calm",
-       "thousands"
-       )
+export(
+  "scientific10",
+  "theme_biom", "theme_calm",
+  "thousands"
+)
 
 ## -------------------------------------------------------------------
 ## useDynLib (dRew)
