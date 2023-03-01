@@ -44,22 +44,20 @@ theme_calm <- function(
 
 
 
-## Basic background-free theme
-theme_biom <- function(
+## Basic background-free theme similar to base R
+theme_base <- function(
   text = element_text(family = "Trebuchet MS", color = "#22211d"),
   strip.background = element_blank(),
   panel.grid.minor = element_blank(),
   panel.grid.major = element_blank(),
-  panel.background = element_rect(size = 1, color = "#22211d", fill = NA),
   ...
 ) {
-  theme_gray() +
+  theme_bw() +
   theme(
     text = text,
     strip.background = strip.background,
     panel.grid.minor = panel.grid.minor,
     panel.grid.major = panel.grid.major,
-    panel.background = panel.background,
     ...
   )
 }

@@ -20,7 +20,7 @@ S3method(ess, numeric)
 ## --- Plotting ------------------------------------------------------
 export(
   "scientific10",
-  "theme_biom", "theme_calm",
+  "theme_base", "theme_calm",
   "thousands"
 )
 
