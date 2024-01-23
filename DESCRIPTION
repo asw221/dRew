@@ -13,4 +13,4 @@ Depends: R (>= 3.0.2),
 LinkingTo: 
 Imports: 
 Suggests: devtools
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.3

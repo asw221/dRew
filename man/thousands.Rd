@@ -17,4 +17,5 @@ Thousands separators for ggplot scales
 }
 \examples{
 thousands(1:5 * 1000)
+
 }

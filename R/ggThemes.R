@@ -44,7 +44,7 @@ theme_calm <- function(
 
 
 
-## Basic background-free theme similar to base R
+## Background-free theme similar to base R
 theme_base <- function(
   text = element_text(family = "Trebuchet MS", color = "#22211d"),
   strip.background = element_blank(),

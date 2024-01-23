@@ -4,7 +4,7 @@
 \alias{scientific10}
 \title{Scientific notation for ggplot scales}
 \usage{
-scientific10(x)
+scientific10(x, ...)
 }
 \arguments{
 \item{x}{"Unformatted" numeric values}
@@ -17,4 +17,5 @@ Scientific notation for ggplot scales
 }
 \examples{
 scientific10(1.2e2)    ## expression(1 \%*\% 10^+01)
+
 }
